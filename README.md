@@ -1,5 +1,4 @@
-# Google Homepage Clone — Kodbud Task 3
-
+# Google Homepage Clone 
 A responsive, static recreation of the Google homepage using **HTML5 and CSS3 only**. Built for a beginner web-development internship assignment.
 
 ## Features
