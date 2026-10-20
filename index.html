@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A responsive Google homepage recreation built with HTML and CSS for a web development internship task." />
+  <title>Google Homepage Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <nav class="top-links top-left" aria-label="Google information links">
+        <a href="https://about.google/" target="_blank" rel="noreferrer">About</a>
+        <a href="https://store.google.com/" target="_blank" rel="noreferrer">Store</a>
+      </nav>
+      <nav class="top-links top-right" aria-label="Google services">
+        <a href="https://mail.google.com/" target="_blank" rel="noreferrer">Gmail</a>
+        <a href="https://images.google.com/" target="_blank" rel="noreferrer">Images</a>
+        <button class="icon-button apps-button" type="button" aria-label="Google apps" title="Google apps">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="5" cy="5" r="1.6"/><circle cx="12" cy="5" r="1.6"/><circle cx="19" cy="5" r="1.6"/>
+            <circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/>
+            <circle cx="5" cy="19" r="1.6"/><circle cx="12" cy="19" r="1.6"/><circle cx="19" cy="19" r="1.6"/>
+          </svg>
+        </button>
+        <button class="profile-button" type="button" aria-label="Google account">S</button>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <section class="search-home" aria-label="Google search homepage">
+        <h1 class="google-logo" aria-label="Google">
+          <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span>
+        </h1>
+        <form class="search-form" action="#" role="search">
+          <div class="search-box">
+            <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/>
+            </svg>
+            <label class="visually-hidden" for="search-input">Search</label>
+            <input id="search-input" name="q" type="search" autocomplete="off" aria-label="Search Google" />
+            <button class="search-tool" type="button" aria-label="Search by voice" title="Search by voice">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M6.5 11.5a5.5 5.5 0 0 0 11 0M12 17v4M9 21h6"/></svg>
+            </button>
+            <button class="search-tool camera-button" type="button" aria-label="Search by image" title="Search by image">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h3l1.4-2h7.2L17 7h3v12H4z"/><circle cx="12" cy="13" r="3.4"/></svg>
+            </button>
+          </div>
+          <div class="search-actions">
+            <button type="submit">Google Search</button>
+            <button type="button">I'm Feeling Lucky</button>
+          </div>
+        </form>
+        <p class="language-line">Google offered in: <a href="#hindi">हिन्दी</a> <a href="#bengali">বাংলা</a> <a href="#telugu">తెలుగు</a> <a href="#marathi">मराठी</a> <a href="#tamil">தமிழ்</a> <a href="#gujarati">ગુજરાતી</a> <a href="#kannada">ಕನ್ನಡ</a> <a href="#malayalam">മലയാളം</a> <a href="#punjabi">ਪੰਜਾਬੀ</a></p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="country-row">India</div>
+      <div class="footer-bottom">
+        <nav class="footer-links footer-left" aria-label="Business links">
+          <a href="https://ads.google.com/" target="_blank" rel="noreferrer">Advertising</a>
+          <a href="https://www.google.com/business/" target="_blank" rel="noreferrer">Business</a>
+          <a href="https://www.google.com/search/howsearchworks/" target="_blank" rel="noreferrer">How Search works</a>
+        </nav>
+        <a class="climate-link" href="https://sustainability.google/" target="_blank" rel="noreferrer"><span class="leaf" aria-hidden="true">♧</span> Our third decade of climate action: join us</a>
+        <nav class="footer-links footer-right" aria-label="Policy links">
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">Privacy</a>
+          <a href="https://policies.google.com/terms" target="_blank" rel="noreferrer">Terms</a>
+          <a href="https://www.google.com/preferences" target="_blank" rel="noreferrer">Settings</a>
+        </nav>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
