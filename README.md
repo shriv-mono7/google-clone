@@ -9,11 +9,6 @@ A responsive, static recreation of the Google homepage using **HTML5 and CSS3 on
 - Language links and responsive footer
 - Keyboard focus styling and mobile-friendly layout
 
-## Run locally
-1. Extract the ZIP.
-2. Open this folder in Visual Studio Code.
-3. Open `index.html` in a browser, or install the **Live Server** VS Code extension and choose **Open with Live Server**.
-
 ## Files
 - `index.html` — page structure and inline decorative SVG icons
 - `style.css` — layout, colors, hover states, and responsive breakpoints
